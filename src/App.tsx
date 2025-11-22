@@ -1,10 +1,13 @@
-import Calculator from "./Calculator";
+import { CartProvider } from './CartContext';
+import ProductList from './ProductList';
+import Cart from './Cart';
 
 function App() {
   return (
-    <div>
-      <Calculator />
-    </div>
+    <CartProvider>
+      <ProductList />
+      <Cart />
+    </CartProvider>
   );
 }
 
