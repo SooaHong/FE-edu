@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { CartContext } from './CartContext';
 
 function ProductList() {
-  const { addToCart } = useContext(CartContext);
+  const context = useContext(CartContext);
 
   if (!context) throw new Error("CartProvider 안에서만 사용 가능");
 
