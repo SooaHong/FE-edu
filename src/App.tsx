@@ -1,9 +1,9 @@
-import TodoList from "./TodoList";
+import Calculator from "./Calculator";
 
 function App() {
   return (
     <div>
-      <TodoList />
+      <Calculator />
     </div>
   );
 }
